@@ -58,9 +58,7 @@ result = lx.extract(
     prompt_description=prompt,
     examples=examples,
     model_id="llama3.2:1b",  # Automatically selects Ollama provider
-    model_url="http://localhost:11434",
-    fence_output=False,
-    use_schema_constraints=False
+    model_url="http://159.223.114.164:11434"
 )
 ```
 
